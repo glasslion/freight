@@ -16,13 +16,17 @@
     "GOOGLE_CLIENT_ID": "",
     "GOOGLE_CLIENT_SECRET": "",
     "GOOGLE_DOMAIN": {
-      "description": "The Google Apps domain you wish to restrict login to"
+      "description": "The Google Apps domain you wish to restrict login to",
+      "required": false
     },
-    "SENTRY_DSN": "",
+    "SENTRY_DSN": {
+      "required": false
+    },
     "DEFAULT_TIMEOUT": "300",
     "LOG_LEVEL": "INFO",
     "SSH_PRIVATE_KEY": {
-      "description": "A private key to use when cloning repositories"
+      "description": "A private key to use when cloning repositories",
+      "required": false
     }
   },
   "formation": [
