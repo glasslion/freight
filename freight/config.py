@@ -154,7 +154,7 @@ def create_app(_read_config=True, **config):
             app.config.from_pyfile(path, silent=True)
 
     configure_logging(app)
-    configure_sentry(app)
+    # configure_sentry(app)
     configure_api(app)
     configure_celery(app)
     configure_redis(app)
